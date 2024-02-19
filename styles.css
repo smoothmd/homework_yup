@@ -1,0 +1,84 @@
+.header-class {
+    color: DarkGreen;
+}
+.origin-section-class{ 
+color: Plum;
+}
+.hero-section-class{ 
+color: RebeccaPurple;
+}
+.testimonial-section-class{ 
+color: RebeccaPurple;
+}
+.form-class{ 
+color: PaleVioletRed;
+}
+.faq-section-class{ 
+color: Navy;
+}
+.newsletter-section-class{ 
+color: Navy;
+}
+.input-class{ 
+color: Navy; 
+background-color: LightCyan;
+}
+.button-class{ 
+color: MediumOrchid;
+}
+
+.section-title-class{ 
+color: Indigo;
+}
+.image-class {
+border: 10px solid #555;
+border-color: Orange; 
+}
+
+.body-class{
+    background-color:AntiqueWhite;
+}
+
+ 
+.button-class{
+    color: SteelBlue; 
+    background-color: Gainsboro
+}
+
+.footer-class {
+    background-color: Teal;
+    color: Thistle
+}
+
+/* Navigation bar styles */
+.nav-class {
+    background-color: LightCyan; 
+    font-weight: bold;
+    
+}
+.nav-class{
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.nav-class::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #272727;
+    transition: 0.3s;
+    transition-timing-function: easy-in-out;
+    transform: scaleX(0)
+}
+.nav-class:hover::after
+{
+    transform: scaleX(1)}
+.title-class {
+    color: SlateBlue;
+   background-color: #333;
+            text-align: left;
+            padding: 1em;
+            font-weight: bolder;
